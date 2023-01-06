@@ -1,0 +1,195 @@
+*{
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+/* banner area */
+
+.banner-container{
+  background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../images/donation6.jpg);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 669px;
+  text-align: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.banner-title{
+  padding: 200px 0 25px 0;
+  color: white;
+  font-size: 50px;
+  margin: 0 400px;
+}
+.banner-description{
+  padding: 10px 0;
+  color: grey;
+  margin: 0 400px;
+
+}
+.button-primary{
+  color: white;
+  background: #ee5253;
+  border: none;
+  padding: 18px 35px 19px 36px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* donate amount styles */
+
+.donation-money{
+  margin: 0 400px;
+  text-align: center;
+}
+.donate-title{
+  padding: 100px 0 25px 0;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.donate-description{
+  margin: 20px 0;
+}
+.donate-tk-all{
+  display: flex;
+}
+.other-tk input{
+  padding: 10px;
+  color: #d2d2d2;
+  font-size: 30px;
+  border: 0;
+  background: none;
+  text-align: center;
+}
+.donate-tk:hover{
+  border: 3px solid #c0392b;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  color: #707070;
+  
+}
+
+/* .donate-tk-500:active{
+  border: 5px solid #c0392b;
+  padding: 30px;
+  border-radius: 5px;
+  background: #FFEEEE;
+  margin-bottom: 50px;
+  color: #707070;
+} */
+
+
+/* sheva plan styles */
+
+.sheva-section{
+  margin: 0 400px;
+}
+
+.sheva-description{
+  text-align: center;
+  margin: 30px 400px;
+}
+.sheva{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sheva-item-one{
+  background: #edf5f6;
+  padding: 50px 20px;
+
+}
+.sheva-item-two{
+  background: #fab1a0;
+  padding: 50px 20px;
+}
+.sheva-item-three{
+  background: #ffeaa7;
+  padding: 50px 20px;
+}
+.sheva-title{
+  color: #121212;
+  font-size: 20px;
+  margin-bottom: 15px;
+} 
+
+/* donation photo album shows */
+
+.donation-photo-one{
+  display: flex;
+  margin: 100px 400px;
+  gap: 50px;
+  align-items: center;
+  
+}
+.photo-title{
+  color: #121212;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.photo-description{
+  padding: 15px 0;
+
+}
+.photo-album-one{
+  border-radius: 5px;
+}
+
+/* update area */
+
+.updates{
+  margin: 100px 250px;
+  text-align: center;
+}
+.updates-title{
+  padding: 50px 0 25px 0;
+  color: #121212;
+  font-size: 40px;
+}
+.update-text{
+  color: #707070;
+}
+.update-box{
+  text-align: center;
+  width: 700px;
+  height: 200px;
+  background: #ffeaa7;
+  margin-bottom: 150px;
+  padding-top: 120px;
+}
+.email{
+  padding: 20px 40px;
+  border: none;
+  background: #d9d9d9;
+  border-radius: 5px 0 0 5px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: -5px;
+}
+.subscribe{
+  padding: 20px 40px;
+  border: none;
+  background: #ff5959;
+  border-radius: 0 5px 5px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* footer section */
+
+.footer-section{
+  height: 200px;
+  background: #0B0D17;
+}
+.footer-logo{
+  padding-top: 50px;
+  color: #b74245;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.footer-text{
+  color: #fff;
+  text-align: center;
+}
